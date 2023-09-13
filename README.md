@@ -8,11 +8,12 @@ Faz o Upload do vídeo -> Converte de vídeo para audio -> converte de audio par
 trilha Mastery
 
 - [x] Vite: Para iniciar
+- [x] Tailwindcss
+- [x] Radix-ui (componentes pre feitos sem estilo)
+- [x] shadcn-ui/ui (vários componentes implementados usando tailwind - seria O tailwind + Radix)
 - [] web assembly
 - [] OpenAI (GPT 3.5)
 - [] Versel
-- [] Taywind
-- [] shadcn-ui/ui
 - [] fastyfy
 - [] React
 - [] Typescript
@@ -32,4 +33,26 @@ pnpm create vite
 
 Não é bom usar export default: O problema é que usando export default não dá nome para as coisas e só pode ter um por arquivo.
 
+
+No guia de instalação do shadcn-ui/ui já instala o tailwind e radix
+
+    pnpm add -D tailwindcss postcss autoprefixer
+
+    npx tailwindcss init -p
+
+
+editar tsconfig.json
+dentro de compilier opition 
+/* Paths */
+"baseUrl": ".",
+"paths": {
+  "@/*": ["./src/*"]
+}
+Isso vai fazer com que qualquer import que você fizer que começa com @ vai começar da pasta source
+
+Update vite.config.ts
+
+pnpm i -D @types/node
+
+23:15
 -->
