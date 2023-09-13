@@ -7,6 +7,7 @@ Faz o Upload do vídeo -> Converte de vídeo para audio -> converte de audio par
 
 trilha Mastery
 
+- [x] Vite: Para iniciar
 - [] web assembly
 - [] OpenAI (GPT 3.5)
 - [] Versel
@@ -21,4 +22,14 @@ trilha Mastery
 
 <!--
 AI: temperatura - Quanto maior a temperatura a AI fica mais criativa com mais chances de erro
+
+pnpm -> é a mesma coisa de npm. Mas ele otimiza o espaço ocupado pela máquina. PNPM as dependencias são compatilhadas pelos projetos a partir de uma referência.
+
+pnpm create vite
+    nome: upload-ai-web
+    React typescript
+
+
+Não é bom usar export default: O problema é que usando export default não dá nome para as coisas e só pode ter um por arquivo.
+
 -->
