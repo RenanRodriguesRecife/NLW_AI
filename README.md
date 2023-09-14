@@ -97,5 +97,11 @@ Extenções do Visual studio recomendadas:
 - tailwind css intellisense
 - post css lenguage suport
 
-32:00
+--------
+para mudar o tema do shadcn-ui
+vá na aba themes do site customise e clique em copy code e cole no index.css
+
+------------
+não é bom usar as cores padrões do tailwind 
+use as cores do shadcn-ui. Pois se um dia você quiser modificar o tema e criar um tema light fica mais fácil modificar.
 -->
