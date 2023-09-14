@@ -90,4 +90,12 @@ pnpm dlx shadcn-ui@latest add button
 
 
 A vantagem do shadcn-ui é a capacidade de personaliza os componentes pois são totalmente copiados para dentro da biblioteca
+
+Extenções do Visual studio recomendadas:
+- code spell checker
+- prisma
+- tailwind css intellisense
+- post css lenguage suport
+
+32:00
 -->
