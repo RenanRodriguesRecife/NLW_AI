@@ -54,5 +54,40 @@ Update vite.config.ts
 
 pnpm i -D @types/node
 
-23:15
+biblioteca que permite fazer a importações das apis internas do node dentro do arquivo de configuração do vite
+
+Adicionar o código no vite.config.ts
+
+import path from "path"
+import react from "@vitejs/plugin-react"
+import { defineConfig } from "vite"
+ 
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+})
+
+pnpm dlx shadcn-ui@latest init
+
+selecione type script
+estilo new york (componente mais flat)
+tonalidade de cinza: zinc - cinza totalmente cinza
+onde tá o css global: src/index.css
+yes
+tailwind.config.js
+@/components
+@/lib/utils (onde vai colocar algumas funções utilitárias da biblioteca)
+no (como não estamos usando o NEXT)
+
+testar se está funcionando
+Usar o comando para adicionar componentes do shadcn-ui na biblioteca:
+
+pnpm dlx shadcn-ui@latest add button
+
+
+A vantagem do shadcn-ui é a capacidade de personaliza os componentes pois são totalmente copiados para dentro da biblioteca
 -->
